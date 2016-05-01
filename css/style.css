@@ -1,0 +1,587 @@
+/* Main CSS*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+/*Video Background*/
+body,html
+{
+	font-family: 'Roboto',sans-serif;
+}
+.mainDiv
+{
+    position: relative;
+    min-height: 860px;
+}
+
+.remove
+{
+  padding: 0px !important;
+}
+
+
+.effect:hover
+{
+  background: black;
+
+}
+
+.effect:hover img
+{
+
+    background: black;
+    opacity: 0.5;
+
+}
+
+.effect:hover h3
+{
+  color:white;
+}
+
+.effect h3
+{
+  text-align: center;
+}
+
+.gallery img
+{
+  border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.gallery
+{
+    background: #E4EBEC;
+    z-index: 16;
+    position: relative;
+}
+
+.gallery col-md-3
+{
+  padding:0px !important;
+}
+video
+{
+	height: 1040px;
+	position: fixed;
+    z-index: 9;
+    left:-200px;
+}
+
+.videoOverlay {
+    min-height: 960px;
+    background: url(../images/grid2.png);
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    min-width: 100%;
+}
+
+.person
+{
+	margin-top:10em;
+}
+
+.videoOverlay p
+{
+	margin: 0 0 10px;
+    color: white;
+    font-size: 19px;
+    letter-spacing: 3px;
+    font-family: helvetica;
+}
+.cc input
+{
+  width: 100%;
+}
+#send
+{
+  width: 100%;
+    background: #53A1AD;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 20px;
+    padding: 4px;
+    text-align: center;
+    
+    border-radius: 3px;
+}
+#back-top
+{
+   width: 60px;
+              height: 60px;
+              margin: 0;
+              border-radius: 30px;
+              background: #53A1AD url(../images/up-arrow.png) no-repeat center center;
+              background-position: 50% 48%;
+              box-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+              position: fixed;
+              z-index: 99;
+              right: 20px;
+              bottom: 20px;
+}
+#back-top:hover
+{
+  transition: 0.5s;
+  background: #08c url(../images/up-arrow.png) no-repeat center center;
+  
+}
+
+
+.videoOverlay h1
+{
+	font-size: 98px;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+}
+
+/* End Video Background*/
+
+
+.aboutme
+{
+	background: white;
+    z-index: 12;
+    position: relative;
+    padding-left: 30px;
+}
+
+.aboutme h2
+{
+	font-size: 36px;
+	margin-bottom: 0px;
+}
+
+.aboutme p
+{
+	color: #858890;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.texting img
+{
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.texting h5
+{
+	margin-left: 55px;
+    margin-top: -25px;
+    font-size:16px;
+    color: #53a1ad; 
+}
+
+.texting h3
+{
+	margin-top:-15px;
+	color: #6c6c6c;
+}
+
+.responsive
+{
+	background: url(../images/bg-part-1.jpg);
+    z-index: 12;
+    position: relative;
+}
+
+.responsive p
+{
+	max-width: 870px;
+	color: white;
+	margin: 0 auto;
+	line-height: 26px;
+	padding-bottom:15px;
+}
+
+.skills
+{
+	background: white;
+    z-index: 14;
+    position: relative;
+}
+
+
+
+/*ISO TOPE*/
+
+	.isotope-item {
+    z-index: 2;
+}
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+}
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
+}
+
+
+/* ---- grid ---- */
+
+.grid {
+  /*background: #DDD;*/
+  height: 75%;
+  margin: 0 auto;
+      min-height: 270px;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-item {
+  float: left;
+  width: 55px;
+  height: 50px;
+ 
+  border-color: hsla(0, 0%, 0%, 0.7);
+  background: #53a1ad;
+  border-radius: 0px 0px 5px 5px;
+  margin:0 5px;
+}
+
+.grid .inner
+  {      word-wrap: break-word;
+      font-size: 20px;
+      font-weight:bold;
+        box-sizing: border-box;
+        padding:15px;
+            white-space: nowrap;
+            -webkit-transform: rotate(90deg);
+  }
+
+
+.code { height: 100px; }
+.design { height: 150px; }
+.other { height: 200px; }
+
+
+.portfolioFilter a
+{
+      font-family: 'PT Sans', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 9px 40px;
+    background: #53a1ad;
+    border-radius: 5px;
+    text-transform: lowercase;
+    display: inline-block;
+}
+
+.portfolioFilter .current
+{
+  background : #fc6f5c !important;
+}
+
+input
+{
+  border:1px solid darkgrey;
+  border-radius: 2px;
+}
+
+.footer
+{
+    background: #fafafa;
+    z-index: 25;
+    position: relative;
+}
+
+
+.grid
+{
+  color:white;
+}
+/* End ISOTOPE*/
+
+    
+    .education
+    {
+          background: #fafafa;
+    z-index: 15;
+    position: relative;
+    }
+
+     .contact
+    {
+          background: #fafafa;
+    z-index: 16;
+    position: relative;
+    }
+
+
+   .circle
+   {   
+    width: 40px;
+    height: 40px;
+    border: 10px solid #53a1ad;
+    position: absolute;
+    display: block;
+    background: #fafafa;
+    top: 0;
+    left: 50%;
+    margin-left: -20px;
+    border-radius: 20px;
+  }
+
+  .line
+  {
+    border-left: 2px solid #53a1ad;
+    height: 200px;
+    width: 1px;
+    margin: 0 auto;
+    max-height: inherit;
+  }
+
+  .year
+  {
+           font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    line-height: 36px;
+    width: 110px;
+    color: #fff;
+    background: #53a1ad;
+    /* position: absolute; */
+    top: 47px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+    /* display: block; */
+ 
+    margin-top: -150px;
+  }
+
+  .insider
+  {
+    background: white;
+    margin:20px;
+    border-radius:10px;
+    border:2px solid #D9DFE0 ;
+    padding: 20px;
+  }
+  .insider h3
+  {
+    font-family: 'PT Sans', sans-serif;
+    color: #6c6c6c;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .insider h3:hover
+  {
+    color: #0AD5F5;
+  }
+
+  .insider h5
+  {
+        color: #80838b;
+        font-family: PT Sans, sans-serif;
+       font-size: 16px;
+      line-height: 26px;
+  }
+
+  .img-responsive
+  {
+    margin:0 auto; 
+  }
+  
+  .pak
+	{
+	    border-radius: 50%;
+    border: 11px solid rgba(0, 0, 0,0.5);
+    box-sizing: border-box;
+	max-width:300px;
+	width:100%;
+	}
+	
+	.blank
+	{
+		background: #fafafa;
+		z-index: 17;
+		position: relative;
+	}
+	.googleMap
+	{
+		background: #fafafa;
+		z-index: 17;
+		position: relative;
+		
+		height:380px;
+	}
+
+  .nav
+  {
+    background: white;
+    z-index: 22;
+    position: fixed;
+	
+  }
+
+  .nav ul
+  {
+	
+	color:white;
+	font-weight: 300;
+	font-size:20px;
+	font-family: 'Roboto',sans-serif;
+	list-style: none;	
+ }
+ nav a
+{
+	color:white;
+	    
+ }
+ .nav nav
+ {
+	background: rgb(66, 129, 138);
+ }
+ 
+ .nav li
+ {	
+ padding: 3px 10px;
+  margin: 5px;
+ }
+ .nav li:hover
+ {
+	background: red;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 3px 10px;
+ }
+ 
+ .nav a:hover
+ {
+ color: white;
+    text-decoration: none;
+ }
+ 
+ .rotate:hover
+ {
+	transform:rotateY(360deg);
+	
+ }
+ .but
+ {
+     color: white;
+    text-decoration: none;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #42818A;
+    padding-left: 8px;
+    padding-top: 5px;
+    border-radius: 50%;
+    font-weight: bolder;
+    border: 2px solid #42818A;
+    font-size: 20px;
+	margin-top:10px;
+ }
+@media screen and (max-width: 405px) 
+{
+
+	.grid .inner
+	{	
+		font-size:15px;
+	}
+	
+	.grid-item
+	{
+		width:25px;
+		margin:0px;
+	}
+	
+	.name h1
+	{
+		font-size:40px !important;
+	}
+   
+	
+}
+
+@media screen and (max-width :490px) 
+{
+	
+	
+   
+	.grid-item
+	{
+		    width: 20px;
+			box-sizing: border-box;
+			border-left: 1px solid white;
+	}
+	
+	
+		.grid .inner
+		{  
+			word-wrap: break-word;
+			font-size: 15px;
+			font-weight:bold;
+			box-sizing: border-box;
+			padding-left:10px !important;
+			padding-right:0px !important;
+			padding-top:0px !important;
+			padding-bottom:0px !important;
+			white-space: nowrap;
+			-webkit-transform: rotate(90deg);
+	  }
+
+	
+}
+
+@media screen and (max-width: 990px) 
+{
+
+	.name h1
+	{
+		font-size:68px;
+	}
+	
+  .education .col-md-2
+  {
+    display: none;
+  }
+
+  .empty
+  {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 1260px) 
+{
+
+     .line
+     {
+          height: 230px;
+     }
+
+     .year
+     {
+      margin-top: -170px;
+     }
+
+}
