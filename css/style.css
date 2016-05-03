@@ -198,6 +198,7 @@ video
 
 .skills
 {
+	overflow:hidden;
 	background: white;
     z-index: 14;
     position: relative;
@@ -489,6 +490,12 @@ input
  {
 	transform:rotateY(360deg);
 	
+ }
+ 
+ .but:focus
+ {
+	color:white;
+	text-decoration:none;
  }
  .but
  {
